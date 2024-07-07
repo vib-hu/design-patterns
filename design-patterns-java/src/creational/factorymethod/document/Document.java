@@ -1,4 +1,4 @@
-package creational.factory;
+package creational.factorymethod.document;
 
 //Product
 public interface Document {

@@ -1,4 +1,4 @@
-package creational.factory;
+package creational.factorymethod.document;
 
 public class PdfDocumentCreator extends DocumentCreator {
 

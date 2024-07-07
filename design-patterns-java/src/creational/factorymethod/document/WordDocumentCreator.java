@@ -1,4 +1,4 @@
-package creational.factory;
+package creational.factorymethod.document;
 
 public class WordDocumentCreator extends DocumentCreator {
 

@@ -1,6 +1,6 @@
-package creational.factory;
+package creational.factorymethod.document;
 
-public class PdfDocument implements Document {
+public class WordDocument implements Document{
     @Override
     public void open(){
         System.out.println("test");
