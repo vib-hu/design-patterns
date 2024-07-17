@@ -4,7 +4,7 @@ public class Client {
 
     public Pizza orderPizza(String pizzaType){
 
-        //initial version - only one type of pizza
+        //Phase 1 - initial version - only one type of pizza
 //        Pizza pizza = new Pizza();
 //        pizza.prepare();
 //        pizza.bake();
@@ -12,7 +12,7 @@ public class Client {
 //        pizza.box();
 //        return pizza;
 
-        //new pizza types added
+        //Phase 2 - new pizza types added
         Pizza pizza;
         if(pizzaType.equals("cheese"))
             pizza = new CheesePizza();
