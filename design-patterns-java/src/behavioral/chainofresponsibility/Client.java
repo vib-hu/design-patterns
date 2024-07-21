@@ -1,11 +1,10 @@
 package behavioral.chainofresponsibility;
 
-import java.time.Instant;
 import java.time.LocalDateTime;
 
 public class Client {
 
-    public void TestChainOfResponsibility(){
+    public void testChainOfResponsibility(){
         var nameHandler = new NameValidationHandler();
         var emailHandler = new EmailValidationHandler();
         nameHandler.setNextHandler(emailHandler);

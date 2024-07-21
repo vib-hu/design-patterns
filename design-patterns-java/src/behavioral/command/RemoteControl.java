@@ -2,12 +2,12 @@ package behavioral.command;
 
 import java.util.HashMap;
 
-public class Invoker {
+public class RemoteControl {
 
     HashMap<Integer, Command> buttonCommands = new HashMap<>();
     final int buttons = 5;
 
-    public Invoker(){
+    public RemoteControl(){
         for(int i=1;i<=buttons;i++){
             buttonCommands.put(i, new NoCommand());
         }
