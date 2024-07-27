@@ -1,6 +1,4 @@
-package behavioral.templatemethod;
-
-import java.util.ArrayList;
+package behavioral.templatemethod.comparable;
 
 public class Client {
 

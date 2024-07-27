@@ -1,4 +1,4 @@
-package behavioral.templatemethod;
+package behavioral.templatemethod.comparable;
 
 public class Sort {
 

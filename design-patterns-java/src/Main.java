@@ -1,4 +1,4 @@
-import behavioral.templatemethod.Client;
+import behavioral.templatemethod.caffeinebeverage.Client;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -12,6 +12,8 @@ public class Main {
 //        Client client = new Client();
 //        client.textMemento();
 
+//        Client client = new Client();
+//        client.test();
         Client client = new Client();
         client.test();
     }
