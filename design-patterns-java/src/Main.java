@@ -1,3 +1,4 @@
+import behavioral.observer.ObserverClient;
 import behavioral.state.Client;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -17,7 +18,9 @@ public class Main {
 //        Client client = new Client();
 //        client.test();
 
-        Client client = new Client();
+//        Client client = new Client();
+//        client.test();
+        ObserverClient client = new ObserverClient();
         client.test();
     }
 }
