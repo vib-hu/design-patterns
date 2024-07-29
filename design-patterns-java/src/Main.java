@@ -1,6 +1,4 @@
-import behavioral.observer.ObserverClient;
-import behavioral.state.Client;
-import structural.composite.CompositeClient;
+import structural.proxy.protectionproxy.ProxyClient;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -21,9 +19,13 @@ public class Main {
 
 //        Client client = new Client();
 //        client.test();
+
 //        ObserverClient client = new ObserverClient();
 //        client.test();
-        CompositeClient client = new CompositeClient();
+
+//        CompositeClient client = new CompositeClient();
+//        client.test();
+        ProxyClient client = new ProxyClient();
         client.test();
     }
 }
